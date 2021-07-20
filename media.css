@@ -1,0 +1,74 @@
+@media all and (max-width: 885px){
+	a{
+		font-size: 12pt;
+	}
+	header{
+	padding: 3px 2rem 10px 2rem;
+	background: linear-gradient(170deg,#ff8e70,#ff585f);
+}
+	#logo{
+		font-size: 14pt;
+		letter-spacing: 8px;
+	}
+}
+@media all and (max-width: 708px){
+	a{
+		color: #000;
+		font-size: 18pt;
+	}
+	nav{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	nav > div{
+		display: none;
+		flex-direction: column;
+		align-items: center;
+		background-color: #fff;
+		padding: 1rem;
+		border-radius: 20px	;
+		flex: 1 100%;
+	}
+	#logo{
+		margin-bottom: 40px;
+		font-size: 28pt;
+		flex :10;
+	}
+	#nav_container > ul{
+		text-align: center;
+	}
+	#nav_container > ul > li{
+		display: block;	
+		margin-bottom: 10px;
+	}
+	#nav_container > ul  li:hover >ul{
+		display: none;
+	}
+	#nav_container > ul ul{
+		position: relative;
+		background-color: #ddd;
+	}
+	#sign > a{
+		display: block;
+		padding: 1rem 2rem;
+		border-radius: 1rem;
+		text-align: center;
+	}
+	#sign > a:hover{
+		background-color: rgba(0, 0, 0, .3);
+	}
+	/* style of menu checkbox*/
+	nav > label{
+		display: block;
+		width: 50px;
+		height: 50px;
+		background: linear-gradient(to bottom,#000 20%,transparent 21% 40%,#000 41% 60%,transparent 61% 80%,#000 81% 100%);
+		border-radius: 1rem;
+		flex: 1;		
+	}
+	nav > input[type="checkbox"]:checked+label {
+		background-color: rgba(255, 255, 255, 0.3);
+	}
+	nav > input[type="checkbox"]:checked +label+div{
+		display: flex;
+	}
