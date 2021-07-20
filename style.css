@@ -119,6 +119,45 @@ header > section a:hover{
 	background-color: rgba(225,255,255);
 	color: #ff585f;
 }
+/*main section style*/
+main{
+	padding: 3px 4rem 10px 4rem;
+}
+.container1{
+	display: flex;
+	flex-wrap: wrap;
+}
+.container1 > h1{
+	flex: 2 100%;
+	text-align: center;
+	font-size: 32pt;
+	color: #48f;
+	margin: 4rem 0 4rem 0;
+	font-family:"roboto",sans-serif ;
+
+}
+.container1 > section{
+	flex: 1 50%;
+}
+.paragraph > h3{
+	font-size: 24pt;
+	margin-bottom: 2rem;
+	color: #36d;
+	font-family:"roboto",sans-serif ;
+}
+.paragraph > p{
+	font-size: 16pt;
+	font-family:"roboto",sans-serif ;
+	font-weight: 300;
+
+}
+.container1 > div{
+	flex: 1 50%;
+	background-image: url("images/illustration-editor-desktop.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
 
 

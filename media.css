@@ -5,10 +5,19 @@
 	header{
 	padding: 3px 2rem 10px 2rem;
 	background: linear-gradient(170deg,#ff8e70,#ff585f);
-}
+	}
 	#logo{
 		font-size: 14pt;
 		letter-spacing: 8px;
+	}
+	.container1 > h1{
+		font-size: 24pt;
+	}
+	.paragraph > h3{
+		font-size: 18pt;
+	}
+	.paragraph > p{
+		font-size: 12pt;
 	}
 }
 @media all and (max-width: 708px){
@@ -72,3 +81,20 @@
 	nav > input[type="checkbox"]:checked +label+div{
 		display: flex;
 	}
+	/* media for main section*/
+
+	.paragraph > h3{
+		font-size: 18pt;
+	}
+	.paragraph > p{
+		font-size: 14pt;
+	}
+	.container1{
+		flex-direction: column;
+		flex-wrap:	nowrap;
+	}
+	.container1 > div{
+		height: 400px;
+		flex: auto;
+	}
+}
