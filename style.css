@@ -154,7 +154,8 @@ main{
 .container1 > div{
 	flex: 1 50%;
 	background-image: url("images/illustration-editor-desktop.svg");
-	background-size: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
 	background-position: center;
 }
 
