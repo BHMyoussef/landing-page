@@ -97,4 +97,39 @@
 		height: 400px;
 		flex: auto;
 	}
+
+	.container2{
+		flex-direction: column;
+		height: auto;
+	}
+	.container2 > div{
+		padding: 3rem;
+		width: 100%;
+	}
+	
+	.container3{
+		flex-direction: column;
+	}
+	.container3 > div{
+		width: 100%;
+	}
+
+	footer{
+		flex-direction: column;
+	}
+	footer > div{
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+	footer > div > div{
+		margin-bottom: 2rem;
+	}
+	footer h4{
+		margin-bottom: 2rem;
+		font-size: 24pt;
+	}
+	footer  a{
+		font-size: 18pt
+	}
 }

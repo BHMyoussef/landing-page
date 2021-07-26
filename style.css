@@ -4,6 +4,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+
+}
 a{
 	color: #fff;
 	font-size: 14pt;
@@ -126,6 +129,7 @@ main{
 .container1{
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 6rem;
 }
 .container1 > h1{
 	flex: 2 100%;
@@ -139,10 +143,14 @@ main{
 .container1 > section{
 	flex: 1 50%;
 }
+.paragraph{
+	margin-bottom: 4rem;
+}
 .paragraph > h3{
 	font-size: 24pt;
 	margin-bottom: 2rem;
-	color: #36d;
+	color: #23f;
+	text-decoration: underline;
 	font-family:"roboto",sans-serif ;
 }
 .paragraph > p{
@@ -157,6 +165,77 @@ main{
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+
+.container2{
+	display: flex;
+	justify-content: end;
+
+	align-items: center;
+	background-color: #2d2e40;
+	border-radius: 0  4rem;
+	background-image: url("images/bg-pattern-circles.svg");
+	height: 70vh;
+	background-repeat: no-repeat;
+	margin-bottom: 10rem;
+}
+.container2 > div{
+	width: 50%;
+	margin-left: .5rem;
+}
+.container2 > div > p{
+	color: #fff;
+}
+.svg3{
+	height: 500px;
+	margin-right: .5rem;
+}
+
+
+.container3{
+	display: flex;
+	align-items: center;
+}
+.svg4{
+	width: 50%;
+	margin-right: .5rem;
+}
+.container3> div{
+	width: 50%;
+	margin-left: .5rem;
+}
+
+
+footer{
+	background-color: #3e4062;
+	display: flex;
+	padding: 3rem;
+}
+footer > div{
+	display: flex;
+	flex-grow: 2;
+	justify-content: space-around;
+}
+
+footer > div > div{
+	display: flex;
+	flex-direction: column;
+}
+footer h4{
+	font-size: 16pt;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 4rem;
+}
+footer a{
+	color: #211;
+	font-size: 14pt;
+	margin: .25rem 0;
+
+}
+footer a:hover{
+	text-decoration: underline;
 }
 
 
